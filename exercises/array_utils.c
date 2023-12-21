@@ -66,7 +66,12 @@ double getMean(const int *arr, int size) {
     printf(" Error: Invalide address \n");
     return -1;
   }
-}
+
+   if(size == 0){
+    printf("Invalide Size..\n");
+    return -1;
+  }
+  
 
 int getMin(const int *arr, int size) {
   //TODO: implement
