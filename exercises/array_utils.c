@@ -62,6 +62,10 @@ void freeTable(int **table, int n) {
 
 double getMean(const int *arr, int size) {
   //TODO: implement
+  if(arr == NULL){
+    printf(" Error: Invalide address \n");
+    return -1;
+  }
 }
 
 int getMin(const int *arr, int size) {
